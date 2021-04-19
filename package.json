@@ -1,0 +1,16 @@
+{
+  "name": "stats-preview-card-main",
+  "version": "1.0.0",
+  "description": "stats-card",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jota",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
